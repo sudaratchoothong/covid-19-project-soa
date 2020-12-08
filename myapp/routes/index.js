@@ -44,9 +44,7 @@ router.get('/table', async function(req, res, next) {
     res.render('table', { resultData: result.rows });
 });
 
-router.get('/about', async function(req, res, next) {
-    res.render('about', { resultData: 'About' });
-});
+
 
 
 module.exports = router;
